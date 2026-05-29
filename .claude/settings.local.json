@@ -1,0 +1,6 @@
+{
+  "project": "portfolio-phuong-duc-minh",
+  "owner": "Phùng Đức Minh",
+  "stack": "React + Vite + TypeScript + Tailwind v4 + Framer Motion + GSAP",
+  "deploy": "Vercel"
+}
