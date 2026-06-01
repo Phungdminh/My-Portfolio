@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-bg: oklch(0.16 0 0);
+  --color-surface: oklch(0.24 0 0);
+  --color-text-primary: oklch(0.96 0 0);
+  --color-muted: oklch(0.60 0 0);
+  --color-stroke: oklch(0.28 0 0);
+  --accent: linear-gradient(90deg, #89AACC 0%, #4E85BF 100%);
+  --font-body: Inter;
+  --font-display: Instrument Serif;
+  color-scheme: dark;
+}
+
+@theme {
+  --font-sans: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-display), ui-serif, Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+.bg-accent {
+  background-image: var(--accent);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
