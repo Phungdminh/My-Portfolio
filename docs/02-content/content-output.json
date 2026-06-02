@@ -1,0 +1,43 @@
+{
+  "brand": {
+    "name": "Phùng Đức Minh",
+    "initials": "About me"
+  },
+  "nav": [
+    { "label": "Work", "href": "#work" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "loading": {
+    "label": "Preparing portfolio"
+  },
+  "hero": {
+    "label": "AI OPERATION SPECIALIST · 2026",
+    "title": "Phùng Đức Minh",
+    "roles": ["Tools Builder", "Automator", "Systems Thinker"],
+    "description": "I build AI operations systems that turn complex workflows into reliable, scalable products.",
+    "videoUrl": ""
+  },
+  "stats": [
+    { "value": "10", "label": "Internal Tools" },
+    { "value": "3", "label": "Vibe Code Web Projects" },
+    { "value": "1", "label": "Agentic AI Workflow" }
+  ],
+  "work": {
+    "label": "Selected Works",
+    "headline": "Systems with momentum",
+    "subtext": "A focused collection of agentic builds, automation stacks, and product experiments will live here as project details are finalized."
+  },
+  "projects": [],
+  "contact": {
+    "headline": "Let’s build together",
+    "subtext": "Reach out when you want to design, automate, or ship an AI-native workflow.",
+    "links": []
+  },
+  "footer": {
+    "text": "Built for Phùng Đức Minh’s AI agentic developer portfolio."
+  },
+  "meta": {
+    "title": "Phùng Đức Minh — AI Operation Specialist",
+    "description": "Portfolio of Phùng Đức Minh, an AI Operation Specialist building systems that think, adapt, and scale."
+  }
+}
