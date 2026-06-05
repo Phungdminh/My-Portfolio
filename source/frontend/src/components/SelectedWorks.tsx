@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { content } from '../data/content';
 
-const cardSpans = ['md:col-span-7 md:row-span-2', 'md:col-span-5', 'md:col-span-5', 'md:col-span-7'];
+const cardSpans = ['md:col-span-6', 'md:col-span-6'];
 
 export function SelectedWorks() {
   return (
@@ -21,9 +21,8 @@ export function SelectedWorks() {
 
         <div className="grid auto-rows-[18rem] grid-cols-1 gap-4 md:grid-cols-12">
           {content.projects.map((project, index) => (
-            <motion.a
+            <motion.article
               key={project.title}
-              href={project.href || '#work'}
               className={`group relative overflow-hidden rounded-[2rem] border border-[var(--color-stroke)] bg-[var(--color-surface)] ${cardSpans[index % cardSpans.length]}`}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -39,6 +38,30 @@ export function SelectedWorks() {
               <div className="absolute inset-x-0 bottom-0 p-7">
                 <h3 className="text-2xl font-semibold tracking-[-0.04em]">{project.title}</h3>
                 <p className="mt-3 max-w-xl text-sm leading-6 text-[var(--color-muted)]">{project.description}</p>
+                {(project.categories ?? []).length > 0 ? (
+                  <ul className="mt-5 grid gap-2 text-sm leading-6 text-[var(--color-text-primary)] sm:grid-cols-2">
+                    {(project.categories ?? []).map((category) => (
+                      <li key={category.href}>
+                        <a
+                          href={category.href}
+                          className="flex items-start gap-2 rounded-2xl border border-white/0 p-1 transition hover:border-white/10 hover:bg-white/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-text-primary)]"
+                        >
+                          <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-text-primary)]" />
+                          <span>{category.label}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (project.highlights ?? []).length > 0 ? (
+                  <ul className="mt-5 grid gap-2 text-sm leading-6 text-[var(--color-text-primary)] sm:grid-cols-2">
+                    {(project.highlights ?? []).map((highlight) => (
+                      <li key={highlight} className="flex items-start gap-2">
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-text-primary)]" />
+                        <span>{highlight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
                 <div className="mt-5 flex flex-wrap gap-2">
                   {(project.tags ?? []).map((tag) => (
                     <span key={tag} className="rounded-full border border-white/10 px-3 py-1 text-xs text-[var(--color-text-primary)]">
@@ -47,7 +70,7 @@ export function SelectedWorks() {
                   ))}
                 </div>
               </div>
-            </motion.a>
+            </motion.article>
           ))}
         </div>
       </div>

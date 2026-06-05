@@ -8,8 +8,11 @@ export function Hero() {
   const rootRef = useRef<HTMLElement>(null);
   const roleRef = useRef<HTMLSpanElement>(null);
   const [roleIndex, setRoleIndex] = useState(0);
+  const [selectedTrackIndex, setSelectedTrackIndex] = useState(0);
   const roles = content.hero.roles;
+  const roleTracks = content.projects.slice(0, 2);
   const currentRole = roles[roleIndex] ?? '';
+  const selectedTrack = roleTracks[selectedTrackIndex];
   const { mousePos, direction, isReducedMotion } = useMouseGradient(rootRef);
 
   useEffect(() => {
@@ -82,8 +85,31 @@ export function Hero() {
             <span className="mb-3 h-px flex-1 bg-[var(--color-stroke)]" />
           </div>
           <p data-hero-reveal className="mt-8 max-w-2xl text-lg leading-8 text-[var(--color-muted)] sm:text-xl">
-            {content.hero.description}
+            {selectedTrack?.description ?? content.hero.description}
           </p>
+          {roleTracks.length > 0 ? (
+            <div data-hero-reveal className="mt-8 inline-flex rounded-full border border-[var(--color-stroke)] bg-[var(--color-surface)]/70 p-1 backdrop-blur-xl">
+              {roleTracks.map((track, index) => {
+                const isSelected = selectedTrackIndex === index;
+
+                return (
+                  <button
+                    key={track.title}
+                    type="button"
+                    aria-pressed={isSelected}
+                    onClick={() => setSelectedTrackIndex(index)}
+                    className={`rounded-full px-5 py-3 text-sm font-semibold transition duration-300 sm:px-6 ${
+                      isSelected
+                        ? 'bg-[var(--color-text-primary)] text-[var(--color-bg)] shadow-xl'
+                        : 'text-[var(--color-muted)] hover:text-[var(--color-text-primary)]'
+                    }`}
+                  >
+                    {track.title}
+                  </button>
+                );
+              })}
+            </div>
+          ) : null}
         </div>
       </div>
     </section>

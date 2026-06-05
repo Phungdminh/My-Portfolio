@@ -13,7 +13,7 @@
   "hero": {
     "label": "AI OPERATION SPECIALIST · 2026",
     "title": "Phùng Đức Minh",
-    "roles": ["Tools Builder", "Automator", "Systems Thinker"],
+    "roles": ["AI Solution Consultant", "Automator", "Systems Thinker"],
     "description": "I build AI operations systems that turn complex workflows into reliable, scalable products.",
     "videoUrl": ""
   },
@@ -27,7 +27,42 @@
     "headline": "Systems with momentum",
     "subtext": "A focused collection of agentic builds, automation stacks, and product experiments will live here as project details are finalized."
   },
-  "projects": [],
+  "projects": [
+    {
+      "title": "Marketing",
+      "description": "A track record of running growth work across ads, content, editing, and automated landing page systems.",
+      "highlights": [
+        "Ads Campaign Management",
+        "Content Creation",
+        "Video Editing",
+        "Automated Landing Pages"
+      ],
+      "categories": [
+        { "label": "Ads Campaign Management", "href": "#work/marketing/ads-campaign-management" },
+        { "label": "Content Creation", "href": "#work/marketing/content-creation" },
+        { "label": "Video Editing", "href": "#work/marketing/video-editing" },
+        { "label": "Automated Landing Pages", "href": "#work/marketing/automated-landing-pages" }
+      ],
+      "tags": ["Ads", "Content", "Video", "Landing Pages"],
+      "href": "#work/marketing"
+    },
+    {
+      "title": "AI Operation Specialist",
+      "description": "Built automation tools that turn repeatable digital operations into faster, more reliable workflows.",
+      "highlights": [
+        "ChatGPT Prompt Automation",
+        "Etsy Product Publishing Automation",
+        "Automated Photoshop Print Files"
+      ],
+      "categories": [
+        { "label": "ChatGPT Prompt Automation", "href": "#work/ai-operation-specialist/chatgpt-prompt-automation" },
+        { "label": "Etsy Product Publishing Automation", "href": "#work/ai-operation-specialist/etsy-product-publishing-automation" },
+        { "label": "Automated Photoshop Print Files", "href": "#work/ai-operation-specialist/automated-photoshop-print-files" }
+      ],
+      "tags": ["ChatGPT", "Etsy", "Photoshop", "Automation"],
+      "href": "#work/ai-operation-specialist"
+    }
+  ],
   "contact": {
     "headline": "Let’s build together",
     "subtext": "Reach out when you want to design, automate, or ship an AI-native workflow.",

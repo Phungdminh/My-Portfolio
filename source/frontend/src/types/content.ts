@@ -8,9 +8,16 @@ export type StatItem = {
   label: string;
 };
 
+export type ProjectCategory = {
+  label: string;
+  href: string;
+};
+
 export type ProjectItem = {
   title: string;
   description: string;
+  highlights?: string[];
+  categories?: ProjectCategory[];
   tags?: string[];
   image?: string;
   href?: string;

@@ -14,6 +14,11 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-05 — Renamed the hero role from Tools Builder to AI Solution Consultant and verified it in the browser.
+- 2026-06-05 — Added a portfolio favicon and verified the frontend loads without browser console errors.
+- 2026-06-04 — Converted Marketing and AI Operation Specialist categories to English and linked each category to its own placeholder page.
+- 2026-06-02 — Updated Work cards to show past Marketing and AI Operation Specialist work as highlight lists.
+- 2026-06-02 — Added Hero toggle for switching between Marketing and AI Operation Specialist content.
 - 2026-06-02 — Updated portfolio stats to show 10 internal tools, 3 vibe code web projects, and 1 agentic AI workflow.
 - 2026-06-01 — Removed cursor trail/air effect and strengthened background visual blocks with more items, brighter opacity, stronger glow, and larger cursor repulsion.
 - 2026-06-01 — Changed cursor trail from visible wave/ripple lines into soft colored air/smoke forms using brand gradient tones.
