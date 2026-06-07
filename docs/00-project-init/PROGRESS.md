@@ -14,6 +14,10 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-07 — Removed stale Work navigation and #work scroll behavior after the selected works section was removed.
+- 2026-06-07 — Removed the Systems with momentum selected works section from the homepage.
+- 2026-06-07 — Replaced achievement stats with Marketing and AI Operation Specialist tools and impact sections.
+- 2026-06-07 — Added a Background story section above the achievement stats with Minh's POD-to-automation origin story.
 - 2026-06-05 — Renamed the hero role from Tools Builder to AI Solution Consultant and verified it in the browser.
 - 2026-06-05 — Added a portfolio favicon and verified the frontend loads without browser console errors.
 - 2026-06-04 — Converted Marketing and AI Operation Specialist categories to English and linked each category to its own placeholder page.

@@ -11,7 +11,7 @@ export const content: PortfolioContent = {
     roles: importedContent.hero.roles ?? [],
     videoUrl: importedContent.hero.videoUrl ?? '',
   },
-  stats: importedContent.stats ?? [],
+  capabilities: importedContent.capabilities ?? [],
   projects: importedContent.projects ?? [],
   contact: {
     ...importedContent.contact,

@@ -80,8 +80,8 @@ export function CursorRepulsionField({ mousePos, direction, isReducedMotion }: C
   if (isReducedMotion) return null;
 
   return (
-    <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden opacity-100">
-      <div className="absolute inset-0 bg-[radial-gradient(circle,rgba(255,255,255,0.12)_1px,transparent_1.5px)] [background-size:44px_44px] [mask-image:radial-gradient(circle_at_center,black_0%,transparent_72%)]" />
+    <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-[1] overflow-hidden opacity-100">
+      <div className="absolute inset-0 bg-[radial-gradient(circle,rgba(255,255,255,0.14)_1px,transparent_1.5px)] [background-size:44px_44px] [mask-image:radial-gradient(circle_at_center,black_0%,transparent_72%)]" />
       {BLOCKS.map((block, index) => {
         const transform = getRepelledTransform(block, mousePos, direction);
         const color = BRAND_COLORS[index % BRAND_COLORS.length];
@@ -89,7 +89,7 @@ export function CursorRepulsionField({ mousePos, direction, isReducedMotion }: C
         return (
           <motion.div
             key={block.id}
-            className="absolute border shadow-[0_22px_90px_rgba(0,0,0,0.36)] backdrop-blur-md"
+            className="absolute border shadow-[0_22px_90px_rgba(0,0,0,0.36)] backdrop-blur-md mix-blend-screen"
             animate={transform}
             transition={{ type: 'spring', stiffness: 140, damping: 22, mass: 0.65 }}
             style={{
@@ -98,9 +98,9 @@ export function CursorRepulsionField({ mousePos, direction, isReducedMotion }: C
               width: block.width,
               height: block.height,
               borderRadius: block.radius,
-              background: `linear-gradient(135deg, ${block.color}, rgba(255,255,255,0.03))`,
+              background: `linear-gradient(135deg, ${block.color}, rgba(255,255,255,0.08))`,
               borderColor: block.borderColor,
-              boxShadow: `0 0 46px ${color}38, 0 20px 80px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.26)`,
+              boxShadow: `0 0 58px ${color}4d, 0 20px 80px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.32)`,
             }}
           />
         );

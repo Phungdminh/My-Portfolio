@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
+import { BackgroundStory } from './components/BackgroundStory';
 import { Contact } from './components/Contact';
 import { Hero } from './components/Hero';
 import { LoadingScreen } from './components/LoadingScreen';
 import { Navbar } from './components/Navbar';
-import { SelectedWorks } from './components/SelectedWorks';
 import { Stats } from './components/Stats';
 import { content } from './data/content';
 
@@ -36,16 +36,6 @@ export default function App() {
     return () => window.removeEventListener('hashchange', handleHashChange);
   }, []);
 
-  useEffect(() => {
-    if (currentHash !== '#work') {
-      return;
-    }
-
-    window.requestAnimationFrame(() => {
-      document.querySelector('#work')?.scrollIntoView({ behavior: 'smooth' });
-    });
-  }, [currentHash]);
-
   return (
     <div className="min-h-screen overflow-hidden bg-[var(--color-bg)] text-[var(--color-text-primary)]">
       <LoadingScreen isVisible={isLoading} />
@@ -54,8 +44,8 @@ export default function App() {
         {selectedCategory ? (
           <section className="flex min-h-screen items-center px-5 py-32 sm:px-8 lg:px-12">
             <div className="mx-auto w-full max-w-4xl rounded-[2rem] border border-[var(--color-stroke)] bg-[var(--color-surface)] p-8 shadow-2xl shadow-black/20 sm:p-12">
-              <a href="#work" className="text-sm font-semibold uppercase tracking-[0.3em] text-[var(--color-muted)] transition hover:text-[var(--color-text-primary)]">
-                Back to work
+              <a href="#top" className="text-sm font-semibold uppercase tracking-[0.3em] text-[var(--color-muted)] transition hover:text-[var(--color-text-primary)]">
+                Back to home
               </a>
               <p className="mt-10 text-sm font-semibold uppercase tracking-[0.4em] text-[var(--color-muted)]">{selectedCategory.project.title}</p>
               <h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-6xl">{selectedCategory.category.label}</h1>
@@ -67,8 +57,8 @@ export default function App() {
         ) : (
           <>
             <Hero />
+            <BackgroundStory />
             <Stats />
-            <SelectedWorks />
             <Contact />
           </>
         )}

@@ -3,9 +3,15 @@ export type NavItem = {
   href: string;
 };
 
-export type StatItem = {
-  value: string;
-  label: string;
+export type CapabilityItem = {
+  title: string;
+  description: string;
+  focusLabel: string;
+  focusItems: string[];
+  toolsLabel: string;
+  tools: string[];
+  impactLabel: string;
+  impact: string[];
 };
 
 export type ProjectCategory = {
@@ -44,7 +50,12 @@ export type PortfolioContent = {
     description: string;
     videoUrl?: string;
   };
-  stats: StatItem[];
+  backgroundStory?: {
+    label: string;
+    headline: string;
+    body: string;
+  };
+  capabilities: CapabilityItem[];
   work: {
     label: string;
     headline: string;

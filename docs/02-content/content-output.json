@@ -4,7 +4,6 @@
     "initials": "About me"
   },
   "nav": [
-    { "label": "Work", "href": "#work" },
     { "label": "Contact", "href": "#contact" }
   ],
   "loading": {
@@ -17,10 +16,32 @@
     "description": "I build AI operations systems that turn complex workflows into reliable, scalable products.",
     "videoUrl": ""
   },
-  "stats": [
-    { "value": "10", "label": "Internal Tools" },
-    { "value": "3", "label": "Vibe Code Web Projects" },
-    { "value": "1", "label": "Agentic AI Workflow" }
+  "backgroundStory": {
+    "label": "Background story",
+    "headline": "Built from repetition",
+    "body": "Started as a content creator in a POD company — making videos, managing content, uploading products manually every single day. About a month in, I got fed up with the repetition and taught myself how to use n8n and Make. Built my first automation to upload products to Shopify automatically. Now I turn business bottlenecks into AI-powered workflows that run themselves."
+  },
+  "capabilities": [
+    {
+      "title": "Marketing",
+      "description": "I create content that moves people and campaigns that move numbers.",
+      "focusLabel": "Things I used to do",
+      "focusItems": ["Ads", "Content", "Video Editing", "Copywriting", "Social Media"],
+      "toolsLabel": "Tools & Platforms",
+      "tools": ["Meta Ads Manager", "Adobe Photoshop", "Figma", "Weavy", "Canva / CapCut", "Shopify", "Shopbase", "WordPress"],
+      "impactLabel": "Marketing Stats",
+      "impact": ["Peak revenue $10,000/month from paid ads", "Content across TikTok, Instagram, Facebook", "POD product launches from zero to running"]
+    },
+    {
+      "title": "AI Operation Specialist",
+      "description": "I identify workflow bottlenecks and build automation systems that run without human intervention.",
+      "focusLabel": "Things I enjoy building",
+      "focusItems": ["Automation Pipelines", "AI Agents", "Internal Tools", "System Design"],
+      "toolsLabel": "Tools & Stack",
+      "tools": ["n8n + Make", "Zapier", "Claude API / OpenAI API", "Google AI Studio", "App Scripts", "LangGraph", "OpenClaw"],
+      "impactLabel": "Impact",
+      "impact": ["4–5 hours saved per day for the team", "200 products auto-uploaded per week", "Auto order routing, auto social posting, auto email replies"]
+    }
   ],
   "work": {
     "label": "Selected Works",
