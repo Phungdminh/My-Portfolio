@@ -14,6 +14,20 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-09 — Added the Vibe code description under the My Recent Work title.
+- 2026-06-09 — Added Recent Work project entries with POD Idea Creator Agent under From work and Staycation Bay plus SkillForge VN under Side project.
+- 2026-06-09 — Removed the Recent Work eyebrow label and description text.
+- 2026-06-09 — Moved the My Recent Work title to the top of the frame with From work and Side project columns below.
+- 2026-06-09 — Split the My Recent Work placeholder into From work and Side project columns.
+- 2026-06-08 — Removed the header Contact link and made Hero background blocks respond to theme changes.
+- 2026-06-08 — Removed the header title chip and moved the dark/light theme toggle to the top-right corner.
+- 2026-06-08 — Added a Navbar toggle for switching between dark and light themes.
+- 2026-06-08 — Added a My Recent Work placeholder section for future work entries.
+- 2026-06-08 — Restored the Hero cursor-repulsion field to 28 background blocks.
+- 2026-06-08 — Added more subtle background blocks to the Hero cursor-repulsion field.
+- 2026-06-08 — Restored the Hero eyebrow label to AI Operation Specialist · 2026.
+- 2026-06-08 — Removed the Marketing and AI Operation Specialist selector from the Hero while preserving the hero copy and effects.
+- 2026-06-08 — Updated Hero copy with “I love what I do” and kept the dedicated hero description visible while preserving track toggles and effects.
 - 2026-06-07 — Removed stale Work navigation and #work scroll behavior after the selected works section was removed.
 - 2026-06-07 — Removed the Systems with momentum selected works section from the homepage.
 - 2026-06-07 — Replaced achievement stats with Marketing and AI Operation Specialist tools and impact sections.

@@ -22,7 +22,23 @@ interface RepulsionBlock {
 
 const INFLUENCE_RADIUS = 240;
 const MAX_OFFSET = 72;
-const BRAND_COLORS = ['#37b854', '#ffae16', '#2a9a43'];
+const BLOCK_COLORS = {
+  green: 'var(--block-green)',
+  orange: 'var(--block-orange)',
+  deepgreen: 'var(--block-deepgreen)',
+};
+
+const BLOCK_ALPHA = {
+  soft: '1f',
+  medium: '24',
+  strong: '2d',
+};
+
+const BORDER_ALPHA = {
+  soft: '50',
+  medium: '55',
+  strong: '66',
+};
 
 const BLOCKS: RepulsionBlock[] = [
   { id: 1, x: 8, y: 18, width: 88, height: 38, radius: '999px', color: '#37b8541f', borderColor: '#37b85455', depth: 0.8, rotate: -8 },
@@ -81,10 +97,11 @@ export function CursorRepulsionField({ mousePos, direction, isReducedMotion }: C
 
   return (
     <div aria-hidden="true" className="pointer-events-none absolute inset-0 z-[1] overflow-hidden opacity-100">
-      <div className="absolute inset-0 bg-[radial-gradient(circle,rgba(255,255,255,0.14)_1px,transparent_1.5px)] [background-size:44px_44px] [mask-image:radial-gradient(circle_at_center,black_0%,transparent_72%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle,var(--block-grid)_1px,transparent_1.5px)] [background-size:44px_44px] [mask-image:radial-gradient(circle_at_center,black_0%,transparent_72%)]" />
       {BLOCKS.map((block, index) => {
         const transform = getRepelledTransform(block, mousePos, direction);
-        const color = BRAND_COLORS[index % BRAND_COLORS.length];
+        const colorKeys = Object.keys(BLOCK_COLORS) as Array<keyof typeof BLOCK_COLORS>;
+        const color = BLOCK_COLORS[colorKeys[index % colorKeys.length]];
 
         return (
           <motion.div
@@ -98,9 +115,9 @@ export function CursorRepulsionField({ mousePos, direction, isReducedMotion }: C
               width: block.width,
               height: block.height,
               borderRadius: block.radius,
-              background: `linear-gradient(135deg, ${block.color}, rgba(255,255,255,0.08))`,
-              borderColor: block.borderColor,
-              boxShadow: `0 0 58px ${color}4d, 0 20px 80px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.32)`,
+              background: `linear-gradient(135deg, color-mix(in oklch, ${color} 22%, transparent), var(--block-overlay))`,
+              borderColor: `color-mix(in oklch, ${color} 42%, transparent)`,
+              boxShadow: `0 0 58px color-mix(in oklch, ${color} 30%, transparent), 0 20px 80px rgba(0,0,0,0.28), inset 0 1px 0 rgba(255,255,255,0.32)`,
             }}
           />
         );

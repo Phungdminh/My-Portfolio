@@ -11,15 +11,15 @@
   },
   "hero": {
     "label": "AI OPERATION SPECIALIST · 2026",
-    "title": "Phùng Đức Minh",
-    "roles": ["AI Solution Consultant", "Automator", "Systems Thinker"],
-    "description": "I build AI operations systems that turn complex workflows into reliable, scalable products.",
+    "title": "I build useful AI systems",
+    "roles": ["AI Agentic Developer", "Automation Builder", "Systems Thinker"],
+    "description": "Turning repetitive work into clear, reliable AI workflows that help teams move faster and focus on better work. And I love what I do",
     "videoUrl": ""
   },
   "backgroundStory": {
     "label": "Background story",
     "headline": "Built from repetition",
-    "body": "Started as a content creator in a POD company — making videos, managing content, uploading products manually every single day. About a month in, I got fed up with the repetition and taught myself how to use n8n and Make. Built my first automation to upload products to Shopify automatically. Now I turn business bottlenecks into AI-powered workflows that run themselves."
+    "body": "Started as a content creator in a POD company making videos, managing content, uploading products manually every single day. About a month in, I got fed up with the repetition and taught myself how to use n8n and Make. Built my first automation to upload products to Shopify automatically. Now I turn business bottlenecks into AI-powered workflows that run themselves."
   },
   "capabilities": [
     {
@@ -47,6 +47,12 @@
     "label": "Selected Works",
     "headline": "Systems with momentum",
     "subtext": "A focused collection of agentic builds, automation stacks, and product experiments will live here as project details are finalized."
+  },
+  "recentWork": {
+    "label": "My Recent Work",
+    "headline": "Work in Progress",
+    "subtext": "A curated look at recent AI operations and agentic development work will be added here soon.",
+    "emptyState": "Recent work entries are being prepared. Please check back soon for selected projects, outcomes, and case notes."
   },
   "projects": [
     {

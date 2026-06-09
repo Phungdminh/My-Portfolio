@@ -34,6 +34,13 @@ export type ContactLink = {
   href: string;
 };
 
+export type RecentWorkContent = {
+  label: string;
+  headline: string;
+  subtext: string;
+  emptyState: string;
+};
+
 export type PortfolioContent = {
   brand: {
     name: string;
@@ -61,6 +68,7 @@ export type PortfolioContent = {
     headline: string;
     subtext: string;
   };
+  recentWork?: RecentWorkContent;
   projects: ProjectItem[];
   contact: {
     headline: string;

@@ -7,10 +7,29 @@
   --color-text-primary: oklch(0.96 0 0);
   --color-muted: oklch(0.60 0 0);
   --color-stroke: oklch(0.28 0 0);
+  --block-green: #37b854;
+  --block-orange: #ffae16;
+  --block-deepgreen: #2a9a43;
+  --block-overlay: rgba(255,255,255,0.08);
+  --block-grid: rgba(255,255,255,0.14);
   --accent: linear-gradient(90deg, #89AACC 0%, #4E85BF 100%);
   --font-body: Inter;
   --font-display: Instrument Serif;
   color-scheme: dark;
+}
+
+:root[data-theme='light'] {
+  --color-bg: oklch(0.96 0 0);
+  --color-surface: oklch(1 0 0);
+  --color-text-primary: oklch(0.16 0 0);
+  --color-muted: oklch(0.45 0 0);
+  --color-stroke: oklch(0.82 0 0);
+  --block-green: #1f8f44;
+  --block-orange: #d78100;
+  --block-deepgreen: #16724f;
+  --block-overlay: rgba(255,255,255,0.52);
+  --block-grid: rgba(22,114,79,0.12);
+  color-scheme: light;
 }
 
 @theme {

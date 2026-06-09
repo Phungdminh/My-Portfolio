@@ -1,28 +1,22 @@
-import { content } from '../data/content';
+type NavbarProps = {
+  theme: 'dark' | 'light';
+  onToggleTheme: () => void;
+};
 
-export function Navbar() {
+export function Navbar({ theme, onToggleTheme }: NavbarProps) {
+  const nextThemeLabel = theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme';
+
   return (
-    <header className="fixed left-0 right-0 top-5 z-40 flex justify-center px-4">
-      <nav className="flex items-center gap-2 rounded-full border border-[var(--color-stroke)] bg-[var(--color-bg)]/80 p-2 shadow-2xl shadow-black/20 backdrop-blur-xl">
-        <a
-          href="#top"
-          className="rounded-full bg-[var(--color-surface)] px-4 py-2 text-sm font-semibold tracking-[0.25em] text-[var(--color-text-primary)] transition hover:border-[var(--color-muted)]"
-          aria-label={content.brand.name}
-        >
-          {content.brand.initials}
-        </a>
-        <div className="flex items-center gap-1">
-          {content.nav.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="rounded-full px-4 py-2 text-sm font-medium text-[var(--color-muted)] transition hover:bg-[var(--color-surface)] hover:text-[var(--color-text-primary)]"
-            >
-              {item.label}
-            </a>
-          ))}
-        </div>
-      </nav>
+    <header className="fixed right-4 top-5 z-40 sm:right-8">
+      <button
+        type="button"
+        aria-label={nextThemeLabel}
+        aria-pressed={theme === 'light'}
+        onClick={onToggleTheme}
+        className="rounded-full border border-[var(--color-stroke)] bg-[var(--color-bg)]/80 px-4 py-3 text-sm font-semibold text-[var(--color-text-primary)] shadow-2xl shadow-black/20 backdrop-blur-xl transition hover:bg-[var(--color-surface)]"
+      >
+        {theme === 'dark' ? 'Light' : 'Dark'}
+      </button>
     </header>
   );
 }
