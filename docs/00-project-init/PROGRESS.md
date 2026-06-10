@@ -14,6 +14,8 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-10 — Removed the phone link from the Contact section, keeping email and LinkedIn.
+- 2026-06-10 — Added email, phone, and LinkedIn links to the Contact section.
 - 2026-06-09 — Added the Vibe code description under the My Recent Work title.
 - 2026-06-09 — Added Recent Work project entries with POD Idea Creator Agent under From work and Staycation Bay plus SkillForge VN under Side project.
 - 2026-06-09 — Removed the Recent Work eyebrow label and description text.

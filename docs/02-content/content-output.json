@@ -93,7 +93,10 @@
   "contact": {
     "headline": "Let’s build together",
     "subtext": "Reach out when you want to design, automate, or ship an AI-native workflow.",
-    "links": []
+    "links": [
+      { "label": "Email", "href": "mailto:phungducminh299@gmail.com" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/minh-ph%C3%B9ng-%C4%91%E1%BB%A9c-ab89b7351/" }
+    ]
   },
   "footer": {
     "text": "Built for Phùng Đức Minh’s AI agentic developer portfolio."
