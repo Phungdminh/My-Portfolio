@@ -40,7 +40,7 @@
       "toolsLabel": "Tools & Stack",
       "tools": ["n8n + Make", "Zapier", "Claude API / OpenAI API", "Google AI Studio", "App Scripts", "LangGraph", "OpenClaw"],
       "impactLabel": "Impact",
-      "impact": ["4–5 hours saved per day for the team", "200 products auto-uploaded per week", "Auto order routing, auto social posting, auto email replies"]
+      "impact": ["4–5 hours saved per day for the team", "200 products auto-uploaded per week", "Orders, social posts, and email replies handled automatically — without human interaction"]
     }
   ],
   "work": {

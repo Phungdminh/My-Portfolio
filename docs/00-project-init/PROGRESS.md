@@ -14,6 +14,7 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-13 — Prepared the latest portfolio updates for GitHub main: contact icons, side gradients, recent work entry, and automated impact copy.
 - 2026-06-10 — Removed the phone link from the Contact section, keeping email and LinkedIn.
 - 2026-06-10 — Added email, phone, and LinkedIn links to the Contact section.
 - 2026-06-09 — Added the Vibe code description under the My Recent Work title.

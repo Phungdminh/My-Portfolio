@@ -12,6 +12,13 @@ const workSections = [
           'An agentic research workflow that targets a specific niche and scrapes multiple sources simultaneously: Meta Ads Library, Google Images, Google Shopping, Pinterest, and Amazon to generate 5 product types with 5 unique ideas each.',
         status: 'Built at POD company',
       },
+      {
+        title: 'Mockup Single Prompt 2.0',
+        type: 'Automated Mockup Generator',
+        description:
+          'A desktop tool that takes a base product image plus multiple pattern prompts and automatically generates finished mockups with each pattern applied — driving AI design tools through browser automation, no manual editing required.',
+        status: 'Built at POD company',
+      },
     ],
   },
   {
