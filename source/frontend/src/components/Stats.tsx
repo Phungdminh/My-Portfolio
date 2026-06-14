@@ -14,7 +14,6 @@ export function Stats() {
         {content.capabilities.map((capability) => (
           <div key={capability.title} className="rounded-[2rem] border border-[var(--color-stroke)] bg-[var(--color-surface)]/60 p-8">
             <p className="font-serif text-5xl italic tracking-[-0.05em] text-[var(--color-text-primary)] sm:text-6xl">{capability.title}</p>
-            <p className="mt-4 text-sm leading-7 text-[var(--color-muted)]">{capability.description}</p>
 
             <div className="mt-8 space-y-6">
               <div>
@@ -41,14 +40,13 @@ export function Stats() {
 
               <div>
                 <p className="text-xs uppercase tracking-[0.25em] text-[var(--color-muted)]">{capability.impactLabel}</p>
-                <ul className="mt-3 space-y-2 text-sm leading-6 text-[var(--color-text-primary)]">
+                <div className="mt-3 flex flex-wrap gap-2">
                   {capability.impact.map((impact) => (
-                    <li key={impact} className="flex gap-3">
-                      <span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-[var(--color-accent)]" />
-                      <span>{impact}</span>
-                    </li>
+                    <span key={impact} className="rounded-full border border-[var(--color-stroke)] px-3 py-1 text-sm leading-6 text-[var(--color-text-primary)]">
+                      {impact}
+                    </span>
                   ))}
-                </ul>
+                </div>
               </div>
             </div>
           </div>

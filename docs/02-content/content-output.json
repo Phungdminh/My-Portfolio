@@ -38,7 +38,7 @@
       "focusLabel": "Things I enjoy building",
       "focusItems": ["Automation Pipelines", "AI Agents", "Internal Tools", "System Design"],
       "toolsLabel": "Tools & Stack",
-      "tools": ["n8n + Make", "Zapier", "Claude API / OpenAI API", "Google AI Studio", "App Scripts", "LangGraph", "OpenClaw"],
+      "tools": ["n8n + Make", "Zapier", "Claude API / OpenAI API", "Google AI Studio", "App Scripts", "LangGraph", "OpenClaw", "Google Extension"],
       "impactLabel": "Impact",
       "impact": ["4–5 hours saved per day for the team", "200 products auto-uploaded per week", "Orders, social posts, and email replies handled automatically — without human interaction"]
     }
@@ -95,7 +95,10 @@
     "subtext": "Reach out when you want to design, automate, or ship an AI-native workflow.",
     "links": [
       { "label": "Email", "href": "mailto:phungducminh299@gmail.com" },
-      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/minh-ph%C3%B9ng-%C4%91%E1%BB%A9c-ab89b7351/" }
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/in/minh-ph%C3%B9ng-%C4%91%E1%BB%A9c-ab89b7351/" },
+      { "label": "Telegram", "href": "https://t.me/Ducminh299" },
+      { "label": "Facebook", "href": "https://www.facebook.com/profile.php?id=100094926401040" },
+      { "label": "Zalo", "href": "https://zalo.me/0973309676" }
     ]
   },
   "footer": {

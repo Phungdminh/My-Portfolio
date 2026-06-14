@@ -1,11 +1,8 @@
 import { useEffect, useState } from 'react';
 import { BackgroundStory } from './components/BackgroundStory';
-
-type ThemeMode = 'dark' | 'light';
 import { Contact } from './components/Contact';
 import { Hero } from './components/Hero';
 import { LoadingScreen } from './components/LoadingScreen';
-import { Navbar } from './components/Navbar';
 import { RecentWork } from './components/RecentWork';
 import { Stats } from './components/Stats';
 import { content } from './data/content';
@@ -24,7 +21,6 @@ function getSelectedCategory(hash: string) {
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
-  const [theme, setTheme] = useState<ThemeMode>('dark');
   const [currentHash, setCurrentHash] = useState(() => window.location.hash);
   const selectedCategory = getSelectedCategory(currentHash);
 
@@ -33,9 +29,6 @@ export default function App() {
     return () => window.clearTimeout(timer);
   }, []);
 
-  useEffect(() => {
-    document.documentElement.dataset.theme = theme;
-  }, [theme]);
 
   useEffect(() => {
     const handleHashChange = () => setCurrentHash(window.location.hash);
@@ -49,7 +42,6 @@ export default function App() {
       <div className="pointer-events-none fixed inset-y-0 left-0 z-0 hidden w-32 bg-[linear-gradient(to_right,rgba(78,133,191,0.18),transparent)] lg:block xl:w-48" />
       <div className="pointer-events-none fixed inset-y-0 right-0 z-0 hidden w-32 bg-[linear-gradient(to_left,rgba(137,170,204,0.18),transparent)] lg:block xl:w-48" />
       <LoadingScreen isVisible={isLoading} />
-      <Navbar theme={theme} onToggleTheme={() => setTheme((current) => (current === 'dark' ? 'light' : 'dark'))} />
       <main className="relative z-10">
         {selectedCategory ? (
           <section className="flex min-h-screen items-center px-5 py-32 sm:px-8 lg:px-12">

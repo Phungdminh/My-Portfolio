@@ -14,6 +14,29 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-14 — Added Facebook Ads winning-ad data as an input signal for POD Idea Creator Agent.
+- 2026-06-14 — Removed the extra Recent Work wrapper frame and restored the Vibe coding subtitle.
+- 2026-06-14 — Added F1 Showcase to Side project as a 3D sports showcase website.
+- 2026-06-14 — Removed capability descriptions, converted Marketing Stats and Impact to framed chips, and removed Skill Concierge improving note.
+- 2026-06-14 — Reverted Backstory, Marketing, and AI sections to neutral styling.
+- 2026-06-14 — Renamed the AI Tools & Stack tag from Extension to Google Extension.
+- 2026-06-14 — Added contrasting color accents to Backstory, Marketing, and AI sections.
+- 2026-06-14 — Added contrasting blue and orange color accents to Recent Work.
+- 2026-06-14 — Removed the Staycation Bay TikTok gap note from Recent Work.
+- 2026-06-14 — Added a large icon-only website link for Skill Concierge in Recent Work.
+- 2026-06-14 — Clarified Mockup Prompt as an automated workflow from the ChatGPT app.
+- 2026-06-14 — Added Telegram, Facebook, and Zalo icon contacts.
+- 2026-06-14 — Cleaned Recent Work copy by renaming Mockup Prompt, removing status labels, and removing the section description.
+- 2026-06-14 — Darkened the hero cursor-repulsion blocks to a charcoal tone for the light theme.
+- 2026-06-14 — Set the portfolio to light theme only and removed the dark/light toggle.
+- 2026-06-14 — Corrected Recent Work categorization: POD as website, Prompt as tool, Staycation Bay as tool, Skill Concierge as website.
+- 2026-06-14 — Restructured Recent Work into From work and Side project groups, each split into Tools and Website.
+- 2026-06-14 — Split Recent Work into Tools and Website sections.
+- 2026-06-14 — Added short HR-friendly case study blocks for Staycation Bay and Mockup Single Prompt 2.0.
+- 2026-06-13 — Added Extension to the AI Tools & Stack tag list.
+- 2026-06-13 — Removed the Claude routines auto-publishing phrase from the Staycation Bay improvement note.
+- 2026-06-13 — Revised Recent Work cards: corrected POD Idea output counts, restored Skill Concierge description, and moved status labels under project types.
+- 2026-06-13 — Updated Recent Work statuses: marked From work projects completed, refined Staycation Bay automation progress, and renamed Skill Concierge with website-completed status.
 - 2026-06-13 — Prepared the latest portfolio updates for GitHub main: contact icons, side gradients, recent work entry, and automated impact copy.
 - 2026-06-10 — Removed the phone link from the Contact section, keeping email and LinkedIn.
 - 2026-06-10 — Added email, phone, and LinkedIn links to the Contact section.

@@ -106,7 +106,7 @@ export function CursorRepulsionField({ mousePos, direction, isReducedMotion }: C
         return (
           <motion.div
             key={block.id}
-            className="absolute border shadow-[0_22px_90px_rgba(0,0,0,0.36)] backdrop-blur-md mix-blend-screen"
+            className="absolute border shadow-[0_22px_90px_rgba(0,0,0,0.24)] backdrop-blur-md mix-blend-multiply"
             animate={transform}
             transition={{ type: 'spring', stiffness: 140, damping: 22, mass: 0.65 }}
             style={{
