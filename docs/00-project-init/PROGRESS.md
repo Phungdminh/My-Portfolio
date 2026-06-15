@@ -14,6 +14,8 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-15 — Removed the dash from the AI Operation Specialist impact sentence.
+- 2026-06-15 — Added the F1 Showcase website link to Recent Work so it matches the Skill Concierge website card.
 - 2026-06-14 — Added Facebook Ads winning-ad data as an input signal for POD Idea Creator Agent.
 - 2026-06-14 — Removed the extra Recent Work wrapper frame and restored the Vibe coding subtitle.
 - 2026-06-14 — Added F1 Showcase to Side project as a 3D sports showcase website.

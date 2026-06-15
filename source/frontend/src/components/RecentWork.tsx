@@ -121,6 +121,7 @@ const workGroups: WorkGroup[] = [
           {
             title: 'F1 Showcase',
             type: '3D Sports Showcase Website',
+            href: 'https://f1-showcase-two.vercel.app/',
             description:
               'An animation-first Formula 1 showcase website with a 3D hero, team pages, race calendar, news, and standings powered by live F1 data.',
           },
