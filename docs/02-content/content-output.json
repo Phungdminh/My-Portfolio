@@ -38,7 +38,7 @@
       "focusLabel": "Things I enjoy building",
       "focusItems": ["Automation Pipelines", "AI Agents", "Internal Tools", "System Design"],
       "toolsLabel": "Tools & Stack",
-      "tools": ["n8n + Make", "Zapier", "Claude API / OpenAI API", "Google AI Studio", "App Scripts", "LangGraph", "OpenClaw", "Google Extension"],
+      "tools": ["n8n + Make", "Google AI Studio", "App Scripts", "LangGraph", "OpenClaw", "Google Extension"],
       "impactLabel": "Impact",
       "impact": ["4–5 hours saved per day for the team", "200 products auto-uploaded per week", "Orders, social posts, and email replies handled automatically without human interaction"]
     }

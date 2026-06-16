@@ -1,0 +1,88 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: About me
+    - paragraph [ref=e7]: Preparing portfolio
+  - banner [ref=e8]:
+    - navigation [ref=e9]:
+      - link "Phùng Đức Minh" [ref=e10] [cursor=pointer]:
+        - /url: "#top"
+        - text: About me
+      - generic [ref=e11]:
+        - link "Work" [ref=e12] [cursor=pointer]:
+          - /url: "#work"
+        - link "Contact" [ref=e13] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=e14]:
+    - generic [ref=e22]:
+      - paragraph [ref=e23]: AI OPERATION SPECIALIST · 2026
+      - heading "Phùng Đức Minh" [level=1] [ref=e24]
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: "10"
+        - paragraph [ref=e29]: Internal Tools
+      - generic [ref=e30]:
+        - paragraph [ref=e31]: "3"
+        - paragraph [ref=e32]: Vibe Code Web Projects
+      - generic [ref=e33]:
+        - paragraph [ref=e34]: "1"
+        - paragraph [ref=e35]: Agentic AI Workflow
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: Selected Works
+        - heading "Systems with momentum" [level=2] [ref=e40]
+        - paragraph [ref=e41]: A focused collection of agentic builds, automation stacks, and product experiments will live here as project details are finalized.
+      - generic [ref=e42]:
+        - article [ref=e43]:
+          - generic [ref=e46]:
+            - heading "Marketing" [level=3] [ref=e47]
+            - paragraph [ref=e48]: A track record of running growth work across ads, content, editing, and automated landing page systems.
+            - list [ref=e49]:
+              - listitem [ref=e50]:
+                - link "Ads Campaign Management" [ref=e51] [cursor=pointer]:
+                  - /url: "#work/marketing/ads-campaign-management"
+                  - generic [ref=e53]: Ads Campaign Management
+              - listitem [ref=e54]:
+                - link "Content Creation" [ref=e55] [cursor=pointer]:
+                  - /url: "#work/marketing/content-creation"
+                  - generic [ref=e57]: Content Creation
+              - listitem [ref=e58]:
+                - link "Video Editing" [ref=e59] [cursor=pointer]:
+                  - /url: "#work/marketing/video-editing"
+                  - generic [ref=e61]: Video Editing
+              - listitem [ref=e62]:
+                - link "Automated Landing Pages" [ref=e63] [cursor=pointer]:
+                  - /url: "#work/marketing/automated-landing-pages"
+                  - generic [ref=e65]: Automated Landing Pages
+            - generic [ref=e66]:
+              - generic [ref=e67]: Ads
+              - generic [ref=e68]: Content
+              - generic [ref=e69]: Video
+              - generic [ref=e70]: Landing Pages
+        - article [ref=e71]:
+          - generic [ref=e74]:
+            - heading "AI Operation Specialist" [level=3] [ref=e75]
+            - paragraph [ref=e76]: Built automation tools that turn repeatable digital operations into faster, more reliable workflows.
+            - list [ref=e77]:
+              - listitem [ref=e78]:
+                - link "ChatGPT Prompt Automation" [ref=e79] [cursor=pointer]:
+                  - /url: "#work/ai-operation-specialist/chatgpt-prompt-automation"
+                  - generic [ref=e81]: ChatGPT Prompt Automation
+              - listitem [ref=e82]:
+                - link "Etsy Product Publishing Automation" [ref=e83] [cursor=pointer]:
+                  - /url: "#work/ai-operation-specialist/etsy-product-publishing-automation"
+                  - generic [ref=e85]: Etsy Product Publishing Automation
+              - listitem [ref=e86]:
+                - link "Automated Photoshop Print Files" [ref=e87] [cursor=pointer]:
+                  - /url: "#work/ai-operation-specialist/automated-photoshop-print-files"
+                  - generic [ref=e89]: Automated Photoshop Print Files
+            - generic [ref=e90]:
+              - generic [ref=e91]: ChatGPT
+              - generic [ref=e92]: Etsy
+              - generic [ref=e93]: Photoshop
+              - generic [ref=e94]: Automation
+    - generic [ref=e96]:
+      - paragraph [ref=e97]: Contact
+      - generic [ref=e99]:
+        - heading "Let’s build together" [level=2] [ref=e100]
+        - paragraph [ref=e101]: Reach out when you want to design, automate, or ship an AI-native workflow.
+      - generic [ref=e102]: Built for Phùng Đức Minh’s AI agentic developer portfolio.

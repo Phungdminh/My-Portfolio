@@ -1,0 +1,89 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: About me
+    - paragraph [ref=e7]: Preparing portfolio
+  - banner [ref=e8]:
+    - navigation [ref=e9]:
+      - link "Phùng Đức Minh" [ref=e10] [cursor=pointer]:
+        - /url: "#top"
+        - text: About me
+      - link "Contact" [ref=e12] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=e13]:
+    - generic [ref=e21]:
+      - paragraph [ref=e22]: AI OPERATION SPECIALIST · 2026
+      - heading "Phùng Đức Minh" [level=1] [ref=e23]
+      - generic [ref=e25]: AI Solution Consultant
+    - generic [ref=e28]:
+      - paragraph [ref=e29]: Background story
+      - heading "Built from repetition" [level=2] [ref=e30]
+      - paragraph [ref=e31]: Started as a content creator in a POD company — making videos, managing content, uploading products manually every single day. About a month in, I got fed up with the repetition and taught myself how to use n8n and Make. Built my first automation to upload products to Shopify automatically. Now I turn business bottlenecks into AI-powered workflows that run themselves.
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: Marketing
+        - paragraph [ref=e36]: I create content that moves people and campaigns that move numbers.
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - paragraph [ref=e39]: Things I used to do
+            - generic [ref=e40]:
+              - generic [ref=e41]: Ads
+              - generic [ref=e42]: Content
+              - generic [ref=e43]: Video Editing
+              - generic [ref=e44]: Copywriting
+              - generic [ref=e45]: Social Media
+          - generic [ref=e46]:
+            - paragraph [ref=e47]: Tools & Platforms
+            - generic [ref=e48]:
+              - generic [ref=e49]: Meta Ads Manager
+              - generic [ref=e50]: Adobe Photoshop
+              - generic [ref=e51]: Figma
+              - generic [ref=e52]: Weavy
+              - generic [ref=e53]: Canva / CapCut
+              - generic [ref=e54]: Shopify
+              - generic [ref=e55]: Shopbase
+              - generic [ref=e56]: WordPress
+          - generic [ref=e57]:
+            - paragraph [ref=e58]: Marketing Stats
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - generic [ref=e62]: Peak revenue $10,000/month from paid ads
+              - listitem [ref=e63]:
+                - generic [ref=e65]: Content across TikTok, Instagram, Facebook
+              - listitem [ref=e66]:
+                - generic [ref=e68]: POD product launches from zero to running
+      - generic [ref=e69]:
+        - paragraph [ref=e70]: AI Operation Specialist
+        - paragraph [ref=e71]: I identify workflow bottlenecks and build automation systems that run without human intervention.
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: Things I enjoy building
+            - generic [ref=e75]:
+              - generic [ref=e76]: Automation Pipelines
+              - generic [ref=e77]: AI Agents
+              - generic [ref=e78]: Internal Tools
+              - generic [ref=e79]: System Design
+          - generic [ref=e80]:
+            - paragraph [ref=e81]: Tools & Stack
+            - generic [ref=e82]:
+              - generic [ref=e83]: n8n + Make
+              - generic [ref=e84]: Zapier
+              - generic [ref=e85]: Claude API / OpenAI API
+              - generic [ref=e86]: Google AI Studio
+              - generic [ref=e87]: App Scripts
+              - generic [ref=e88]: LangGraph
+              - generic [ref=e89]: OpenClaw
+          - generic [ref=e90]:
+            - paragraph [ref=e91]: Impact
+            - list [ref=e92]:
+              - listitem [ref=e93]:
+                - generic [ref=e95]: 4–5 hours saved per day for the team
+              - listitem [ref=e96]:
+                - generic [ref=e98]: 200 products auto-uploaded per week
+              - listitem [ref=e99]:
+                - generic [ref=e101]: Auto order routing, auto social posting, auto email replies
+    - generic [ref=e103]:
+      - paragraph [ref=e104]: Contact
+      - generic [ref=e106]:
+        - heading "Let’s build together" [level=2] [ref=e107]
+        - paragraph [ref=e108]: Reach out when you want to design, automate, or ship an AI-native workflow.
+      - generic [ref=e109]: Built for Phùng Đức Minh’s AI agentic developer portfolio.
