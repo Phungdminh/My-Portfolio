@@ -39,6 +39,21 @@ body {
   background: var(--color-bg);
   color: var(--color-text-primary);
   font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Allow selection inside real text inputs if any are ever added */
+input,
+textarea,
+[contenteditable="true"] {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
 }
 
 button,

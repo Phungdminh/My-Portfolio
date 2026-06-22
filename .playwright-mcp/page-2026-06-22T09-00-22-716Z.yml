@@ -1,0 +1,164 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: About me
+    - paragraph [ref=e7]: Preparing portfolio
+  - main [ref=e8]:
+    - generic [ref=e16]:
+      - paragraph [ref=e17]: AI OPERATION SPECIALIST · 2026
+      - heading "I build useful AI systems" [level=1] [ref=e18]
+      - generic [ref=e20]: AI Agentic Developer
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: Background story
+      - heading "Built from repetition" [level=2] [ref=e25]
+      - paragraph [ref=e26]: Started as a content creator in a POD company making videos, managing content, uploading products manually every single day. About a month in, I got fed up with the repetition and taught myself how to use n8n and Make. Built my first automation to upload products to Shopify automatically. Now I turn business bottlenecks into AI-powered workflows that run themselves.
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: Marketing
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Things I used to do
+            - generic [ref=e34]:
+              - generic [ref=e35]: Ads
+              - generic [ref=e36]: Content
+              - generic [ref=e37]: Video Editing
+              - generic [ref=e38]: Copywriting
+              - generic [ref=e39]: Social Media
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Tools & Platforms
+            - generic [ref=e42]:
+              - generic [ref=e43]: Meta Ads Manager
+              - generic [ref=e44]: Adobe Photoshop
+              - generic [ref=e45]: Figma
+              - generic [ref=e46]: Weavy
+              - generic [ref=e47]: Canva / CapCut
+              - generic [ref=e48]: Shopify
+              - generic [ref=e49]: Shopbase
+              - generic [ref=e50]: WordPress
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: Marketing Stats
+            - generic [ref=e53]:
+              - generic [ref=e54]: Peak revenue $10,000/month from paid ads
+              - generic [ref=e55]: Content across TikTok, Instagram, Facebook
+              - generic [ref=e56]: POD product launches from zero to running
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: AI Operation Specialist
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - paragraph [ref=e61]: Things I enjoy building
+            - generic [ref=e62]:
+              - generic [ref=e63]: Automation Pipelines
+              - generic [ref=e64]: AI Agents
+              - generic [ref=e65]: Internal Tools
+              - generic [ref=e66]: System Design
+          - generic [ref=e67]:
+            - paragraph [ref=e68]: Tools & Stack
+            - generic [ref=e69]:
+              - generic [ref=e70]: n8n + Make
+              - generic [ref=e71]: Claude
+              - generic [ref=e72]: Google AI Studio
+              - generic [ref=e73]: App Scripts
+              - generic [ref=e74]: LangGraph
+              - generic [ref=e75]: OpenClaw
+              - generic [ref=e76]: Google Extension
+          - generic [ref=e77]:
+            - paragraph [ref=e78]: Impact
+            - generic [ref=e79]:
+              - generic [ref=e80]: 4–5 hours saved per day for the team
+              - generic [ref=e81]: 200 products auto-uploaded per week
+              - generic [ref=e82]: Orders, social posts, and email replies handled automatically without human interaction
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - heading "My Recent Work" [level=2] [ref=e87]
+        - paragraph [ref=e88]: Vibe coding
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - heading "From work" [level=3] [ref=e91]
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - heading "Tools" [level=4] [ref=e94]
+              - article [ref=e96]:
+                - heading "Mockup Prompt" [level=5] [ref=e98]
+                - paragraph [ref=e99]: Automated Mockup Generator
+                - paragraph [ref=e100]: An automation tool that runs prompt workflows from the ChatGPT app, applies multiple pattern prompts to a base product image, and generates finished mockups.
+                - generic [ref=e101]:
+                  - generic [ref=e102]:
+                    - term [ref=e103]: Problem
+                    - definition [ref=e104]: Creating many product mockups from one base image in the ChatGPT app was slow and repetitive.
+                  - generic [ref=e105]:
+                    - term [ref=e106]: Built
+                    - definition [ref=e107]: An automation tool that runs prompt workflows from the ChatGPT app and applies multiple pattern prompts to generate finished mockups.
+                  - generic [ref=e108]:
+                    - term [ref=e109]: Impact
+                    - definition [ref=e110]: Turned a manual ChatGPT prompt workflow into a faster, repeatable mockup generation flow.
+            - generic [ref=e111]:
+              - heading "Website" [level=4] [ref=e112]
+              - generic [ref=e113]:
+                - article [ref=e114]:
+                  - heading "POD Idea Creator Agent" [level=5] [ref=e116]
+                  - paragraph [ref=e117]: Agentic Research Workflow
+                  - paragraph [ref=e118]: "An agentic research workflow that targets a specific niche, uses winning ads data from Facebook Ads as idea signals, and scrapes multiple sources simultaneously: Meta Ads Library, Google Images, Google Shopping, Pinterest, and Amazon to generate 5 idea types with 3 unique ideas each."
+                - article [ref=e119]:
+                  - heading "VietMerch POD Trend Engine" [level=5] [ref=e121]
+                  - paragraph [ref=e122]: Source-Grounded Trend-to-Brief Engine
+                  - paragraph [ref=e123]: "A web tool for a print-on-demand in the music and movie niche, built on one rule: no hallucination. It only reports events that come back from a real API call with a working source link movie releases, band tours, new albums, and classic films. Then turns each verified event into a design brief for the team. Facts like names, dates, and venues are copied straight from the source and locked, while only slogans and taglines are AI-written, so the team never designs merch around an event that did not happen."
+        - generic [ref=e124]:
+          - heading "Side project" [level=3] [ref=e125]
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - heading "Tools" [level=4] [ref=e128]
+              - article [ref=e130]:
+                - heading "Staycation Bay" [level=5] [ref=e132]
+                - paragraph [ref=e133]: Content Automation Tool
+                - paragraph [ref=e134]: "A tool that can automatically create content, review it, and publish both text and video into multi social media: Facebook, Instagram, and Threads."
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - term [ref=e137]: Problem
+                    - definition [ref=e138]: Social content planning, review, and publishing took too much manual coordination across platforms.
+                  - generic [ref=e139]:
+                    - term [ref=e140]: Built
+                    - definition [ref=e141]: A tool that generates, reviews, schedules, and prepares staycation content for multiple social channels.
+                  - generic [ref=e142]:
+                    - term [ref=e143]: Impact
+                    - definition [ref=e144]: Reduced repetitive content operations and created a clearer workflow from idea to published post.
+            - generic [ref=e145]:
+              - heading "Website" [level=4] [ref=e146]
+              - generic [ref=e147]:
+                - article [ref=e148]:
+                  - generic [ref=e149]:
+                    - heading "F1 Showcase" [level=5] [ref=e150]
+                    - link "Open F1 Showcase website" [ref=e151] [cursor=pointer]:
+                      - /url: https://f1-showcase-two.vercel.app/
+                      - img [ref=e152]
+                  - paragraph [ref=e156]: 3D Sports Showcase Website
+                  - paragraph [ref=e157]: An animation-first Formula 1 showcase website with a 3D hero, team pages, race calendar, news, and standings powered by live F1 data.
+                - article [ref=e158]:
+                  - generic [ref=e159]:
+                    - heading "Skill Concierge" [level=5] [ref=e160]
+                    - link "Open Skill Concierge website" [ref=e161] [cursor=pointer]:
+                      - /url: https://skill-concierge.vercel.app/
+                      - img [ref=e162]
+                  - paragraph [ref=e166]: Tools & Projects Website
+                  - paragraph [ref=e167]: "A personal website housing everything built from real business problems: automation pipelines, internal tools, and web projects. From POD product upload automation to a real estate landing page, all tools are documented, reusable, and built for scale."
+    - generic [ref=e169]:
+      - paragraph [ref=e170]: Contact
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - heading "Let’s build together" [level=2] [ref=e173]
+          - paragraph [ref=e174]: Reach out when you want to design, automate, or ship an AI-native workflow.
+        - generic [ref=e175]:
+          - link "Email" [ref=e176] [cursor=pointer]:
+            - /url: mailto:phungducminh299@gmail.com
+            - img [ref=e177]
+          - link "LinkedIn" [ref=e179] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/minh-ph%C3%B9ng-%C4%91%E1%BB%A9c-ab89b7351/
+            - img [ref=e180]
+          - link "Telegram" [ref=e182] [cursor=pointer]:
+            - /url: https://t.me/Ducminh299
+            - img [ref=e183]
+          - link "Facebook" [ref=e185] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=100094926401040
+            - img [ref=e186]
+          - link "Zalo" [ref=e188] [cursor=pointer]:
+            - /url: https://zalo.me/0973309676
+            - img [ref=e189]
+      - generic [ref=e191]: Built for Phùng Đức Minh’s AI agentic developer portfolio.
