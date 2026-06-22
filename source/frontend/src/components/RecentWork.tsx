@@ -83,6 +83,12 @@ const workGroups: WorkGroup[] = [
             description:
               'An agentic research workflow that targets a specific niche, uses winning ads data from Facebook Ads as idea signals, and scrapes multiple sources simultaneously: Meta Ads Library, Google Images, Google Shopping, Pinterest, and Amazon to generate 5 idea types with 3 unique ideas each.',
           },
+          {
+            title: 'VietMerch POD Trend Engine',
+            type: 'Source-Grounded Trend-to-Brief Engine',
+            description:
+              'A web tool for a print-on-demand in the music and movie niche, built on one rule: no hallucination. It only reports events that come back from a real API call with a working source link movie releases, band tours, new albums, and classic films. Then turns each verified event into a design brief for the team. Facts like names, dates, and venues are copied straight from the source and locked, while only slogans and taglines are AI-written, so the team never designs merch around an event that did not happen.',
+          },
         ],
       },
     ],

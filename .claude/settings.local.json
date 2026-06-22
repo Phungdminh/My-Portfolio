@@ -1,4 +1,14 @@
 {
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npm -v)",
+      "mcp__plugin_ecc_playwright__browser_console_messages",
+      "mcp__plugin_ecc_playwright__browser_navigate",
+      "mcp__plugin_ecc_playwright__browser_take_screenshot"
+    ]
+  },
   "project": "portfolio-phuong-duc-minh",
   "owner": "Phùng Đức Minh",
   "stack": "React + Vite + TypeScript + Tailwind v4 + Framer Motion + GSAP",
