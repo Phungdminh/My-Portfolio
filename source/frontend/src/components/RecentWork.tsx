@@ -87,7 +87,7 @@ const workGroups: WorkGroup[] = [
             title: 'VietMerch POD Trend Engine',
             type: 'Source-Grounded Trend-to-Brief Engine',
             description:
-              'A web tool for a print-on-demand in the music and movie niche, built on one rule: no hallucination. It only reports events that come back from a real API call with a working source link movie releases, band tours, new albums, and classic films. Then turns each verified event into a design brief for the team. Facts like names, dates, and venues are copied straight from the source and locked, while only slogans and taglines are AI-written, so the team never designs merch around an event that did not happen.',
+              'A web tool for a print-on-demand in the music and movie niche, built on one rule: no hallucination. It only reports events that come back from a real API call with a working source link movie releases, band tours, new albums, and classic films. Then turns each verified event into a design brief for the team.',
           },
           {
             title: 'CS Dashboard',
