@@ -8,7 +8,7 @@ type CaseStudyPoint = {
 
 type WorkItem = {
   title: string;
-  type: string;
+  type?: string;
   description: string;
   improvement?: string;
   caseStudy?: CaseStudyPoint[];
@@ -88,6 +88,11 @@ const workGroups: WorkGroup[] = [
             type: 'Source-Grounded Trend-to-Brief Engine',
             description:
               'A web tool for a print-on-demand in the music and movie niche, built on one rule: no hallucination. It only reports events that come back from a real API call with a working source link movie releases, band tours, new albums, and classic films. Then turns each verified event into a design brief for the team. Facts like names, dates, and venues are copied straight from the source and locked, while only slogans and taglines are AI-written, so the team never designs merch around an event that did not happen.',
+          },
+          {
+            title: 'CS Dashboard',
+            description:
+              'Internal customer-service dashboard for e-commerce support, combining multi-inbox triage, order lookup, AI-assisted draft replies, human-approved sending, and shipment tracking in a FastAPI/React stack.',
           },
         ],
       },
@@ -198,7 +203,9 @@ export function RecentWork() {
                                         </a>
                                       ) : null}
                                     </div>
-                                    <p className={`mt-2 text-sm font-semibold uppercase tracking-[0.25em] ${theme.label}`}>{item.type}</p>
+                                    {item.type ? (
+                                      <p className={`mt-2 text-sm font-semibold uppercase tracking-[0.25em] ${theme.label}`}>{item.type}</p>
+                                    ) : null}
                                     {'improvement' in item && <p className="mt-3 text-sm leading-7 text-[var(--color-muted)]">{item.improvement}</p>}
                                     <p className="mt-4 text-sm leading-7 text-[var(--color-muted)]">{item.description}</p>
                                     {item.caseStudy ? (

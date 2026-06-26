@@ -14,6 +14,7 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-06-26 — Added the CS Dashboard work project to Recent Work with a public-safe name and description only.
 - 2026-06-15 — Added root Vercel build settings for the nested Vite frontend app.
 - 2026-06-15 — Removed the dash from the AI Operation Specialist impact sentence.
 - 2026-06-15 — Added the F1 Showcase website link to Recent Work so it matches the Skill Concierge website card.
