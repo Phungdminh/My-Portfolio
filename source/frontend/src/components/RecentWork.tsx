@@ -34,15 +34,6 @@ const groupThemes = [
     caseStudy: 'border-[#2563eb]/15 bg-white/80',
     link: 'border-[#2563eb]/30 bg-[#dbeafe] text-[#1d4ed8] hover:bg-[#1d4ed8] hover:text-white',
   },
-  {
-    shell: 'border-[#f97316]/30 bg-[#fff7ed]/90 shadow-[#f97316]/10',
-    glow: 'bg-[radial-gradient(circle_at_12%_0%,rgba(249,115,22,0.18),transparent_35%),radial-gradient(circle_at_90%_100%,rgba(168,85,247,0.16),transparent_42%)]',
-    label: 'text-[#c2410c]',
-    section: 'border-[#f97316]/20 bg-white/70',
-    card: 'border-[#f97316]/20 bg-[#fffaf5]/90',
-    caseStudy: 'border-[#f97316]/15 bg-white/80',
-    link: 'border-[#f97316]/30 bg-[#ffedd5] text-[#c2410c] hover:bg-[#c2410c] hover:text-white',
-  },
 ];
 
 const workGroups: WorkGroup[] = [
@@ -93,55 +84,6 @@ const workGroups: WorkGroup[] = [
             title: 'CS Dashboard',
             description:
               'Internal customer-service dashboard for e-commerce support, combining multi-inbox triage, order lookup, AI-assisted draft replies, human-approved sending, and shipment tracking in a FastAPI/React stack.',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: 'Side project',
-    sections: [
-      {
-        title: 'Tools',
-        items: [
-          {
-            title: 'Staycation Bay',
-            type: 'Content Automation Tool',
-            description:
-              'A tool that can automatically create content, review it, and publish both text and video into multi social media: Facebook, Instagram, and Threads.',
-            caseStudy: [
-              {
-                label: 'Problem',
-                text: 'Social content planning, review, and publishing took too much manual coordination across platforms.',
-              },
-              {
-                label: 'Built',
-                text: 'A tool that generates, reviews, schedules, and prepares staycation content for multiple social channels.',
-              },
-              {
-                label: 'Impact',
-                text: 'Reduced repetitive content operations and created a clearer workflow from idea to published post.',
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: 'Website',
-        items: [
-          {
-            title: 'F1 Showcase',
-            type: '3D Sports Showcase Website',
-            href: 'https://f1-showcase-two.vercel.app/',
-            description:
-              'An animation-first Formula 1 showcase website with a 3D hero, team pages, race calendar, news, and standings powered by live F1 data.',
-          },
-          {
-            title: 'Skill Concierge',
-            type: 'Tools & Projects Website',
-            href: 'https://skill-concierge.vercel.app/',
-            description:
-              'A personal website housing everything built from real business problems: automation pipelines, internal tools, and web projects. From POD product upload automation to a real estate landing page, all tools are documented, reusable, and built for scale.',
           },
         ],
       },
