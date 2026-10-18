@@ -14,6 +14,7 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-10-18 — Repo cleanup: removed 16 stale Windows agent worktrees and merged branches (backup zip kept outside repo), normalized line endings with .gitattributes, removed committed screenshots, Playwright logs and unused SelectedWorks.tsx, untracked .claude/settings.local.json, and synced frontend docs with current components.
 - 2026-06-26 — Shortened the VietMerch POD Trend Engine description by removing the final facts-locking sentence.
 - 2026-06-26 — Added the CS Dashboard work project to Recent Work with a public-safe name and description only.
 - 2026-06-15 — Added root Vercel build settings for the nested Vite frontend app.

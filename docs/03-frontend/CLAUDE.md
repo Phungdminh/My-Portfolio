@@ -10,11 +10,11 @@ All files go in `source/frontend/src/`
 ## Components
 | File | Section | Notes |
 |------|---------|-------|
-| Navbar.tsx | Fixed top | Floating pill, "PDM" initials, smooth scroll |
-| Hero.tsx | Full screen | Video bg, rotating roles, GSAP timeline |
-| Stats.tsx | Stats | 3 large numbers, font-display italic |
-| SelectedWorks.tsx | id="work" | Bento grid 12-col, hover overlay |
-| Contact.tsx | id="contact" | Email + socials + footer |
+| Hero.tsx | Full screen | Headline, cursor-repulsion field, GSAP reveal |
+| BackgroundStory.tsx | Story | POD-to-automation origin story |
+| Stats.tsx | Stats | Marketing / AI Operation tools and impact chips |
+| RecentWork.tsx | Recent work | From work / Side project, Tools and Website |
+| Contact.tsx | id="contact" | Email + social icon links |
 | LoadingScreen.tsx | Init | Fade in on load |
 
 ## Content source

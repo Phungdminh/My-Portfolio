@@ -3,3 +3,9 @@ dist/
 .env.local
 .env
 .DS_Store
+
+# Local tooling
+.claude/settings.local.json
+.claude/worktrees/
+.playwright-mcp/
+*.zip
