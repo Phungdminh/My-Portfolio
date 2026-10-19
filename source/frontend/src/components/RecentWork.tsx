@@ -38,7 +38,7 @@ const groupThemes = [
 
 const workGroups: WorkGroup[] = [
   {
-    title: 'From work',
+    title: 'Vietmerce LLC',
     sections: [
       {
         title: 'Tools',
