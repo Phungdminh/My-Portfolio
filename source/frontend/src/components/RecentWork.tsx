@@ -108,7 +108,6 @@ export function RecentWork() {
         >
           <div className="max-w-3xl">
             <h2 className="text-4xl font-semibold tracking-[-0.05em] sm:text-6xl">My Recent Work</h2>
-            <p className="mt-4 text-lg leading-8 text-[var(--color-muted)]">Vibe coding</p>
           </div>
 
           <div className="mt-10 space-y-6">

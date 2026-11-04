@@ -41,6 +41,17 @@ export type RecentWorkContent = {
   emptyState: string;
 };
 
+export type CertificateItem = {
+  title: string;
+  result: string;
+  issued: string;
+};
+
+export type CertificatesContent = {
+  label: string;
+  items: CertificateItem[];
+};
+
 export type PortfolioContent = {
   brand: {
     name: string;
@@ -69,6 +80,7 @@ export type PortfolioContent = {
     subtext: string;
   };
   recentWork?: RecentWorkContent;
+  certificates?: CertificatesContent;
   projects: ProjectItem[];
   contact: {
     headline: string;

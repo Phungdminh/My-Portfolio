@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BackgroundStory } from './components/BackgroundStory';
+import { Certificates } from './components/Certificates';
 import { Contact } from './components/Contact';
 import { Hero } from './components/Hero';
 import { LoadingScreen } from './components/LoadingScreen';
@@ -62,6 +63,7 @@ export default function App() {
             <BackgroundStory />
             <Stats />
             <RecentWork />
+            <Certificates />
             <Contact />
           </>
         )}

@@ -14,6 +14,7 @@
 | Deploy | Orchestrator | ⬜ Pending |
 
 ## Recent updates
+- 2026-11-04 — Removed the Vibe coding subtitle from Recent Work, added SQL, Power BI, and Python to AI Operation tools, renamed its focus label to Things I used to do, and added a Certificates section with IELTS Academic 7.0.
 - 2026-10-19 — Renamed the Recent Work group label from From work to Vietmerce LLC.
 - 2026-10-18 — Removed the Side project group (Staycation Bay, F1 Showcase, Skill Concierge) from Recent Work; only From work remains.
 - 2026-10-18 — Repo cleanup: removed 16 stale Windows agent worktrees and merged branches (backup zip kept outside repo), normalized line endings with .gitattributes, removed committed screenshots, Playwright logs and unused SelectedWorks.tsx, untracked .claude/settings.local.json, and synced frontend docs with current components.
